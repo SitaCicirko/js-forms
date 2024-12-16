@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./forms.js" defer></script>
+    <title>forms</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" required />
+
+      <label for="hobby">Hobby</label>
+      <input type="text" id="hobby" name="hobby" required />
+
+      <label for="date-of-birth">Date of birth</label>
+      <input type="date" id="date-of-birth" name="date-of-birth" required />
+
+      <label for="course">What course?</label>
+      <label for="software">
+        <input type="radio" name="software" value="software" />Software
+        course</label
+      >
+      <label for="games">
+        <input type="radio" name="games" value="games" />Games Dev</label
+      >
+
+      <button type="submit">Submit</button>
+    </form>
+    <output></output>
+  </body>
+</html>
